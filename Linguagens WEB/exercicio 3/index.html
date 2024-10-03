@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro usuário</title>
+</head>
+<body>
+    <h1>Cadastrar usuário</h1>
+    <form>
+        <fieldset>
+            <legend>1 Dados pessoais</legend>
+            <label for="fname">Nome: </label>
+            <input type="text" id="fname" name="fname">
+            <label for="fname">Email: </label>
+            <input type="text" id="femail" name="femail">
+            <label for="fpassword">Senha: </label>
+            <input type="password" id="fpassword" name="fpassword">
+            <label for="fpassword">Confirma senha: </label>
+            <input type="password" id="fpassword" name="fpassword">
+            <p style="display: inline;">Idade: </p>
+            <input type="radio" id="acima17" name="idade" value="Acima 17">
+            <label for="acima17">Acima 17</label>
+            <input type="radio" id="abaixo17" name="idade" value="Abaixo ou igual 17">
+            <label for="abaixo17">Abaixo ou igual 17</label>
+        </fieldset>
+        <fieldset>
+            <legend>2 Perfil</legend>
+            <label for="descricao">Descrição: </label>
+            <textarea name="descricao" id="descricao"></textarea>
+            <label for="perfiltrabalho">Perfil trabalho: </label>
+            <select name="perfiltrabalho" id="perfiltrabalho">
+                <option value="frontend">Front-End Developer</option>
+                <option value="backend">Back-End Developer</option>
+                <option value="both">Ambos</option>
+            </select>
+            <legend>Interesse: </legend>
+            <input type="checkbox" id="area1" name="area1" value="developer">
+            <label for="area1">Programador</label>
+            <input type="checkbox" id="area2" name="area2" value="design">
+            <label for="area2">Design</label>
+            <input type="checkbox" id="area3" name="area3" value="analyst">
+            <label for="area3">Analista</label>
+        </fieldset>
+        <input type="submit" value="Enviar Dados">
+    </form>
+</body>
+</html>
