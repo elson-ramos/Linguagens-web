@@ -1,0 +1,55 @@
+#titulo_principal {
+    color: #5e5e5e;
+    text-align: center;
+}
+
+#foto img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h2.subtitulos {
+    background-color: grey;
+}
+
+h2.subtitulos:hover {
+    transition: 1.5s; /* a trasition cria um efeito que trocar a cor gradualmente */
+    color: white;
+}
+
+p {
+    font-family: Verdana;
+}
+
+ol {
+    list-style-type: upper-alpha;
+}
+
+#informacoes_pessoais {
+    background-color: lightblue;
+}
+
+.minhadiv {
+    border-style: dashed;
+    border-width: 2px;
+    border-color: #000;
+    background-color: lightgrey;
+    text-align: center;
+}
+
+/* 
+• Crie uma classe id que alinhe o seu nome ao centro e coloque uma cor de fonte qualquer.
+• Crie uma classe id que alinhe a foto ao centro. Aplique o seletor id a div da imagem.
+• Desenvolva uma classe CSS para os títulos 'Formações Acadêmicas', 'Formações Complementares' e
+'Soft Skills', utilizando as seguintes configurações: fundo cinza e um efeito de hover. No seletor do
+evento hover, inclua a propriedade transition com uma duração de 1.5 segundos. Quais os efeitos
+que a propriedade transition pode criar na página?
+• Crie um CSS para a tag <p> que modifique a família da fonte para verdana.
+• Crie um estilo para modificar as listas ol {list-style-type: upper-alpha;}
+• Crie um estilo que coloque a cor do fundo do e-mail em azul claro e aplique esse mesmo estilo a
+rede social e idade.
+• Crie um seletor as divs Formações acadêmicas, Formações completares e Soft Skill,
+chamada .minhadiv, com a seguinte configuração: borda tracejada e preta cor de fundo cinza e
+alinhamento centralizado.
+*/
