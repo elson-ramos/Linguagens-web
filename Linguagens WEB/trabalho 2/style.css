@@ -1,0 +1,84 @@
+@font-face {
+    font-family: Tilt Prism;
+    src: url(extras/TiltPrism-Regular.ttf) format(truetype);
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+h1.titulo {
+    font-family: Tilt Prism;
+}
+
+body {
+    background-color: #000000;
+    font-family:fantasy;
+}
+
+header, footer {
+    background-color: #C3C7C6;
+}
+
+.container {
+    background-color: #f0f8f0;
+    width: 960px;
+    margin: auto; /*A propriedade width fixou a largura do div no tamanho indicado, enquando o margin deixou ele centralizado na página*/
+}
+
+#imagem {
+    width: 960px;
+}
+
+a:hover {
+    color: #ff0000;
+}
+
+a {
+    text-decoration: none; /*A propriedade text-decoration aplica decorações no texto para ficar com a aparência de link. Quando definido como "none", ele anula esses efeitos*/
+}
+
+.tabela img {
+    width: 125px; /*Apliquei esse tamanho fixo na imagem para ficar menor, estava excessivamente grande*/
+}
+
+.tabela {
+    text-align: center;
+    border-style: solid;
+    width: 400px;
+    margin: auto;
+}
+
+table img {
+    border-radius: 25px;
+    width: 100%;
+}
+
+table tr:hover {
+    color: #fff;
+    background-color: #000000;
+    transition: 1s;
+}
+
+input, textarea {
+    width:100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px  solid #ccc;
+    box-sizing: border-box;
+}
+
+textarea {
+    height: 250px;
+}
+
+input:focus {
+    background-color: rgb(224, 255, 224);
+}
+
+textarea:focus {
+    background-color: rgb(224, 255, 224);
+}
+
+label {
+    font-size: 1.2rem;
+}
